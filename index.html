@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+
+    <style>
+      lok * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
+      input {
+        padding: 0.5rem;
+        width: 100%;
+      }
+      a {
+        text-decoration: none;
+        background-color: #262626;
+        color: #fff;
+        padding: 0.5rem;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+    <title>Password Checker</title>
+  </head>
+  <body>
+    <main>
+      <input type="text" class="pwd" />
+      <a href="#" class="set-pwd">Set Password</a>
+      <a href="#" class="get-pwd">Get Password</a>
+    </main>
+    <div class="display"></div>
+  </body>
+</html>
